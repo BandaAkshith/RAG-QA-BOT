@@ -46,7 +46,7 @@ This repository contains the implementation of a Retrieval-Augmented Generation 
 ### 1. Dataset Preparation
 - Load and parse the SQuAD dataset:
   ```python
-  with open('path_to_squad_dataset.json', 'r') as file:
+  with open('train-v2.0.json', 'r') as file:
       squad_data = json.load(file)
   ```
 - Generate embeddings for each document context using SentenceTransformer:
