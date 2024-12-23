@@ -20,8 +20,8 @@ This repository contains the implementation of a Retrieval-Augmented Generation 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/rag-model.git
-   cd rag-model
+   git clone [https://github.com/BandaAkshith/Retrieval-Augmented-Generation-RAG-Model-with-SQuAD-Dataset.git]
+   cd Retrieval-Augmented-Generation-RAG-Model-with-SQuAD-Dataset
    ```
 
 2. Install the required libraries:
