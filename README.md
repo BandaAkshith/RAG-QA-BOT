@@ -79,10 +79,10 @@ This repository contains the implementation of a Retrieval-Augmented Generation 
 - Generate responses using OpenAI GPT:
   ```python
   response = openai.ChatCompletion.create(
-      model="gpt-4",
-      messages=messages,
-      max_tokens=100
-  )
+                model="gpt-4o-mini",
+                messages=messages,
+                max_tokens=100  # Limit token usage
+            )
   ```
 
 ## File Structure
