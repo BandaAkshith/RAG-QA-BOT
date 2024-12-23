@@ -102,9 +102,6 @@ This repository contains the implementation of a Retrieval-Augmented Generation 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request.
 
-## License
-This project is licensed under the MIT License.
-
 ## Acknowledgments
 - [Stanford Question Answering Dataset (SQuAD)](https://rajpurkar.github.io/SQuAD-explorer/)
 - [Pinecone](https://www.pinecone.io/)
