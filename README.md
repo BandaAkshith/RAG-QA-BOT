@@ -74,7 +74,11 @@ This repository contains the implementation of a Retrieval-Augmented Generation 
 ### 3. Query and Response Generation
 - Retrieve documents based on query embeddings:
   ```python
-  search_results = index.query(vector=query_embedding, top_k=1, include_metadata=True)
+  search_results = index.query(
+        vector=query_embedding,
+        top_k=1,  # Limit to top 1 for fewer tokens
+        include_metadata=True
+    )
   ```
 - Generate responses using OpenAI GPT:
   ```python
@@ -84,15 +88,6 @@ This repository contains the implementation of a Retrieval-Augmented Generation 
                 max_tokens=100  # Limit token usage
             )
   ```
-
-## File Structure
-```
-├── train-v2.0.json          # SQuAD dataset
-├── squad_documents_with_embeddings.json  # Processed documents with embeddings
-├── main.py                  # Main script for retrieval and generation
-├── README.md                # Project documentation
-└── requirements.txt         # Python dependencies
-```
 
 ## Future Enhancements
 1. **Dynamic Query Expansion**: Extract contextual keywords to enhance document retrieval.
